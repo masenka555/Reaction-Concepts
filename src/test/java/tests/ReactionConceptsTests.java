@@ -17,12 +17,12 @@ public class ReactionConceptsTests extends EveryTest {
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
-  public void verifySearchFieldDisplayed() {
+  public void verifyHomeHeaderDisplayed() {
    HomePage.verifyHomeHeaderDisplayed();
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
-  public void verifyHeader() {
+  public void verifyHeaderButtonsWork() {
     HomePage
             .openServicesPage()
             .openSuccessStoriesPage()
@@ -43,6 +43,21 @@ public class ReactionConceptsTests extends EveryTest {
     HomePage.verifyLinkedInLink();
   }
 
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyServicesHeaderWork() {
+    HomePage
+            .openServicesPage()
+            .openPPCAccountSetUpPage()
+            .openServicesPage()
+            .openPPCManagementPage()
+            .openServicesPage()
+            .openSocialMediaAdvertisingPage()
+            .openServicesPage()
+            .openSearchEngineOptimizationPage()
+            .openServicesPage()
+            .openGeneralMarketingPage();
+
+  }
 
 }
 
