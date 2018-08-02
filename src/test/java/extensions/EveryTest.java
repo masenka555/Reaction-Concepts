@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import pages.HomePage;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +17,7 @@ public class EveryTest {
 
   //------------------------------------------------------------------------------------------------------------------
 
-  public UnauthenticatedHomePage initializeTest(Method method) {
+  public HomePage initializeTest(Method method) {
     try {
           driver = new ChromeDriver();
     } catch (Exception e) {
@@ -26,9 +27,9 @@ public class EveryTest {
 
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     driver.manage().window().maximize();
-    driver.get("http://localhost/addressbook/");
+    driver.get("https://reactionconcepts.com/");
 
-    return new UnauthenticatedHomePage(driver);
+    return new HomePage(driver);
   }
 
   @AfterMethod(alwaysRun = true)

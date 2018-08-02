@@ -17,5 +17,14 @@ public class HomePage extends Header {
 
   private static final String PAGETITLE_HOME = "Home";
 
+  @FindBy(xpath = "//*[@id='content']/div[1]/div/div/div[2]/div[1]")       private WebElement HomeHeader;
+
+
+  private WebElement getHomeHeader()                                     { return waitForElement(HomeHeader, driver); }
+
+
+  public boolean verifyHomeHeaderDisplayed ()                            { return HomeHeader.isDisplayed();
+  }
+
 
 }
