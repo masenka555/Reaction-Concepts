@@ -21,4 +21,14 @@ public class ReactionConceptsTests extends EveryTest {
    HomePage.verifyHomeHeaderDisplayed();
   }
 
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyHeader() {
+    HomePage
+            .openServicesPage()
+            .openSuccessStoriesPage()
+            .openAboutPage()
+            .openContactPage();
+
+  }
+
 }

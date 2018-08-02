@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6269bec6-5136-4879-8879-b0f5d3b3cc92" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/EveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/EveryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/extensions/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../addressbook-web-tests/.gradle/" />
@@ -39,20 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Header.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +51,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServicesPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ServicesPage.java">
+      <file leaf-file-name="ContactPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EveryPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReactionConceptsTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReactionConceptsTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="357">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
@@ -100,11 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EveryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryTest.java">
+      <file leaf-file-name="SuccessStoriesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -419,19 +434,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/extensions/Header.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/extensions/EveryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/extensions/Header.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1171" />
-    <option name="y" value="-1208" />
-    <option name="width" value="1936" />
-    <option name="height" value="1216" />
+    <option name="x" value="1094" />
+    <option name="y" value="-1097" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -553,7 +571,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReactionConceptsTests">
+  <component name="RunManager" selected="TestNG.ReactionConceptsTests.verifyHeader">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -589,6 +607,35 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ReactionConceptsTests.verifyHeader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reactcion_Concepts_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
+      <option name="METHOD_NAME" value="verifyHeader" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -656,9 +703,11 @@
     <list>
       <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderDisplayed" />
       <item itemvalue="TestNG.ReactionConceptsTests" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
         <item itemvalue="TestNG.ReactionConceptsTests" />
         <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderDisplayed" />
       </list>
@@ -678,22 +727,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReactionConceptsTests_verifyHomeHeaderDisplayed - 2018.08.02 at 11h 51m 18s.xml">
-      <configuration name="ReactionConceptsTests.verifyHomeHeaderDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests - 2018.08.02 at 11h 54m 31s.xml">
-      <configuration name="ReactionConceptsTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReactionConceptsTests_verifyHomeHeaderDisplayed - 2018.08.02 at 11h 55m 59s.xml">
       <configuration name="ReactionConceptsTests.verifyHomeHeaderDisplayed" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ReactionConceptsTests - 2018.08.02 at 11h 58m 31s.xml">
       <configuration name="ReactionConceptsTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ReactionConceptsTests - 2018.08.02 at 12h 04m 30s.xml">
+      <configuration name="ReactionConceptsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 43m 02s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 44m 10s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 47m 04s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 48m 56s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 49m 46s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 54m 05s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 55m 23s.xml">
+      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1171" y="-1208" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -703,12 +769,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993513" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993513" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993513" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32993513" />
       <window_info anchor="right" id="Gradle" order="4" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -730,7 +796,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -797,33 +863,12 @@
         <state relative-caret-position="-561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,10 +888,54 @@
     <entry file="file://$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/ServicesPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -855,18 +944,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Header.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

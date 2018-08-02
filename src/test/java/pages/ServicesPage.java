@@ -13,7 +13,7 @@ public class ServicesPage extends Header {
   }
 
 
-  private static final String PAGETITLE_SERVICES = "Home";
+  private static final String PAGETITLE_SERVICES = "Services";
 
 
 }
