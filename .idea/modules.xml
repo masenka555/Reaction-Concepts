@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Reactcion Concepts.iml" filepath="$PROJECT_DIR$/Reactcion Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Reactcion_Concepts.iml" filepath="$PROJECT_DIR$/.idea/modules/Reactcion_Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Reactcion_Concepts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Reactcion_Concepts_main.iml" group="Reactcion_Concepts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Reactcion_Concepts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Reactcion_Concepts_test.iml" group="Reactcion_Concepts" />
     </modules>
   </component>
 </project>
