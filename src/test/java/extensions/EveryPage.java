@@ -2,6 +2,7 @@ package extensions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -70,4 +71,26 @@ public class EveryPage {
     }
     return element;
   }
+
+  public String FacebookURL = "https://www.facebook.com/pages/Reaction-Concepts/212144135490827";
+  public String LinkedInURL = "https://www.linkedin.com/in/lauri-taylor-14a2683/";
+
+  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[2]")          private WebElement FacebookLink;
+  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[3]")          private WebElement LinkedInLink;
+
+
+  public WebElement getFacebookLink() {                                     return waitForElementToBeClickable(FacebookLink, driver); }
+  public WebElement getLinkedInLink() {                                     return waitForElementToBeClickable(LinkedInLink, driver); }
+
+
+    public boolean verifyFacebookLink () {
+      return getFacebookLink().getAttribute("href").contains(FacebookURL);
+    }
+
+    public boolean verifyLinkedInLink () {
+      return getLinkedInLink().getAttribute("href").equals(LinkedInURL);
+    }
+
+
 }
+

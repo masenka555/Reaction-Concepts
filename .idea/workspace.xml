@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6269bec6-5136-4879-8879-b0f5d3b3cc92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,11 +61,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EveryPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EveryPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="522">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#2879#2880#0" expanded="true" />
+                <element signature="e#2958#2959#0" expanded="true" />
+                <element signature="e#3248#3249#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,17 +100,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReactionConceptsTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReactionConceptsTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="454">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -442,14 +447,15 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/extensions/Header.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1094" />
-    <option name="y" value="-1097" />
-    <option name="width" value="1678" />
-    <option name="height" value="1008" />
+    <option name="x" value="1171" />
+    <option name="y" value="-1208" />
+    <option name="width" value="1936" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -571,7 +577,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReactionConceptsTests.verifyHeader">
+  <component name="RunManager" selected="TestNG.ReactionConceptsTests.verifyLinkedInLink (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -620,6 +626,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="ReactionConceptsTests.verifyFacebookLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reactcion_Concepts_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
+      <option name="METHOD_NAME" value="verifyFacebookLink" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="ReactionConceptsTests.verifyHeader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
@@ -649,7 +684,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ReactionConceptsTests.verifyHomeHeaderDisplayed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReactionConceptsTests.verifyLinkedInLink (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
         <pattern>
@@ -662,7 +697,36 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
-      <option name="METHOD_NAME" value="verifyHomeHeaderDisplayed" />
+      <option name="METHOD_NAME" value="verifyLinkedInLink" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ReactionConceptsTests.verifyLinkedInLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Reactcion_Concepts_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
+      <option name="METHOD_NAME" value="verifyLinkedInLink" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -701,15 +765,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderDisplayed" />
       <item itemvalue="TestNG.ReactionConceptsTests" />
       <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookLink" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink (1)" />
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink" />
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookLink" />
         <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
         <item itemvalue="TestNG.ReactionConceptsTests" />
-        <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderDisplayed" />
       </list>
     </recent_temporary>
   </component>
@@ -727,18 +795,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReactionConceptsTests_verifyHomeHeaderDisplayed - 2018.08.02 at 11h 55m 59s.xml">
-      <configuration name="ReactionConceptsTests.verifyHomeHeaderDisplayed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests - 2018.08.02 at 11h 58m 31s.xml">
-      <configuration name="ReactionConceptsTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests - 2018.08.02 at 12h 04m 30s.xml">
-      <configuration name="ReactionConceptsTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 43m 02s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 44m 10s.xml">
       <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
     </history-entry>
@@ -757,6 +813,18 @@
     <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 55m 23s.xml">
       <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyFacebookLink - 2018.08.02 at 13h 31m 13s.xml">
+      <configuration name="ReactionConceptsTests.verifyFacebookLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyLinkedInLink - 2018.08.02 at 13h 32m 48s.xml">
+      <configuration name="ReactionConceptsTests.verifyLinkedInLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyLinkedInLink_(1) - 2018.08.02 at 13h 40m 13s.xml">
+      <configuration name="ReactionConceptsTests.verifyLinkedInLink (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyLinkedInLink_(1) - 2018.08.02 at 13h 41m 34s.xml">
+      <configuration name="ReactionConceptsTests.verifyLinkedInLink (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1171" y="-1208" width="1936" height="1216" extended-state="6" />
@@ -769,9 +837,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993513" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993513" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993513" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32993513" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
@@ -915,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/AboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -954,14 +1015,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="454">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#2958#2959#0" expanded="true" />
+            <element signature="e#3248#3249#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
           </folding>
         </state>
       </provider>

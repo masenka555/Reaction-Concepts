@@ -31,4 +31,19 @@ public class ReactionConceptsTests extends EveryTest {
 
   }
 
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyFacebookLink() {
+    HomePage.verifyFacebookLink();
+  }
+
+
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyLinkedInLink() {
+    HomePage.verifyLinkedInLink();
+  }
+
+
 }
+
+
