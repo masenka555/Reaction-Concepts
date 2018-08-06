@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class SocialMediaAdvertisingPage extends Header {
+public class SocialMediaAdvertisingPage extends EveryHeaderFooter {
   public SocialMediaAdvertisingPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_SOCIAL_MEDIA_ADVERTISING))

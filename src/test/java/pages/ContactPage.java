@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class ContactPage extends Header {
+public class ContactPage extends EveryHeaderFooter {
   public ContactPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_CONTACT))

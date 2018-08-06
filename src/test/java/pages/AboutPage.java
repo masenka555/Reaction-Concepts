@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class AboutPage extends Header {
+public class AboutPage extends EveryHeaderFooter {
   public AboutPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_ABOUT))

@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class PPCManagementPage extends Header {
+public class PPCManagementPage extends EveryHeaderFooter {
   public PPCManagementPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_PPC_MANAGEMENT))

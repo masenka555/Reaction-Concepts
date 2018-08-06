@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6269bec6-5136-4879-8879-b0f5d3b3cc92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/extensions/EveryHeaderFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/extensions/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/extensions/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/pages/ServicesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/pages/ServicesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/tests/ReactionConceptsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/tests/ReactionConceptsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/extensions/Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GeneralMarketingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GeneralMarketingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PPCAccountSetUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PPCAccountSetUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PPCManagementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PPCManagementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchEngineOptimizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchEngineOptimizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SocialMediaAdvertisingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SocialMediaAdvertisingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,11 +53,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Header.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Header.java">
+      <file leaf-file-name="EveryHeaderFooter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryHeaderFooter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="34" column="76" lean-forward="true" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+            <state relative-caret-position="609">
+              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4685#4686#0" expanded="true" />
+                <element signature="e#4760#4761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ServicesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,14 +82,8 @@
       <file leaf-file-name="EveryPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="e#2879#2880#0" expanded="true" />
-                <element signature="e#2958#2959#0" expanded="true" />
-                <element signature="e#3248#3249#0" expanded="true" />
-                <element signature="e#3327#3328#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="745">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -91,8 +115,8 @@
       <file leaf-file-name="ReactionConceptsTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="507">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
@@ -101,6 +125,8 @@
                 <element signature="e#596#597#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
                 <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1376#1377#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -418,18 +444,19 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/extensions/EveryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SuccessStoriesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/AboutPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PPCAccountSetUpPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PPCManagementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SocialMediaAdvertisingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/SearchEngineOptimizationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/GeneralMarketingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ServicesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/extensions/Header.java" />
+        <option value="$PROJECT_DIR$/src/test/java/extensions/EveryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/extensions/EveryHeaderFooter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java" />
       </list>
     </option>
   </component>
@@ -559,7 +586,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReactionConceptsTests.verifyServicesHeaderWork">
+  <component name="RunManager" selected="TestNG.ReactionConceptsTests.verifyFacebookFooterLink">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -579,7 +606,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReactionConceptsTests.verifyFacebookLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReactionConceptsTests.verifyFacebookFooterLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
         <pattern>
@@ -592,7 +619,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
-      <option name="METHOD_NAME" value="verifyFacebookLink" />
+      <option name="METHOD_NAME" value="verifyFacebookFooterLink" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -608,7 +635,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ReactionConceptsTests.verifyHeader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReactionConceptsTests.verifyFooterButtonsWork" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
         <pattern>
@@ -621,7 +648,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
-      <option name="METHOD_NAME" value="verifyHeader" />
+      <option name="METHOD_NAME" value="verifyFooterButtonsWork" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -637,7 +664,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ReactionConceptsTests.verifyLinkedInLink (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReactionConceptsTests.verifyHomeHeaderWork" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
         <pattern>
@@ -650,11 +677,11 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
-      <option name="METHOD_NAME" value="verifyLinkedInLink" />
+      <option name="METHOD_NAME" value="verifyHomeHeaderWork" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="0" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -666,7 +693,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ReactionConceptsTests.verifyLinkedInLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReactionConceptsTests.verifyLinkedInHeaderLink" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Reactcion_Concepts_test" />
       <extension name="coverage">
         <pattern>
@@ -679,7 +706,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ReactionConceptsTests" />
-      <option name="METHOD_NAME" value="verifyLinkedInLink" />
+      <option name="METHOD_NAME" value="verifyLinkedInHeaderLink" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -747,19 +774,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
-      <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookLink" />
-      <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink" />
-      <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink (1)" />
       <item itemvalue="TestNG.ReactionConceptsTests.verifyServicesHeaderWork" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderWork" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyFooterButtonsWork" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInHeaderLink" />
+      <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookFooterLink" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookFooterLink" />
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInHeaderLink" />
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyFooterButtonsWork" />
         <item itemvalue="TestNG.ReactionConceptsTests.verifyServicesHeaderWork" />
-        <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink (1)" />
-        <item itemvalue="TestNG.ReactionConceptsTests.verifyLinkedInLink" />
-        <item itemvalue="TestNG.ReactionConceptsTests.verifyFacebookLink" />
-        <item itemvalue="TestNG.ReactionConceptsTests.verifyHeader" />
+        <item itemvalue="TestNG.ReactionConceptsTests.verifyHomeHeaderWork" />
       </list>
     </recent_temporary>
   </component>
@@ -777,27 +804,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 47m 04s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 48m 56s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 49m 46s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 54m 05s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyHeader - 2018.08.02 at 12h 55m 23s.xml">
-      <configuration name="ReactionConceptsTests.verifyHeader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyFacebookLink - 2018.08.02 at 13h 31m 13s.xml">
-      <configuration name="ReactionConceptsTests.verifyFacebookLink" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReactionConceptsTests_verifyLinkedInLink - 2018.08.02 at 13h 32m 48s.xml">
-      <configuration name="ReactionConceptsTests.verifyLinkedInLink" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReactionConceptsTests_verifyLinkedInLink_(1) - 2018.08.02 at 13h 40m 13s.xml">
       <configuration name="ReactionConceptsTests.verifyLinkedInLink (1)" configurationId="TestNG" />
     </history-entry>
@@ -806,6 +812,27 @@
     </history-entry>
     <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.02 at 15h 09m 18s.xml">
       <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.02 at 15h 14m 00s.xml">
+      <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.02 at 15h 14m 57s.xml">
+      <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.02 at 15h 16m 03s.xml">
+      <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.02 at 21h 53m 11s.xml">
+      <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyHomeHeaderWork - 2018.08.03 at 08h 15m 14s.xml">
+      <configuration name="ReactionConceptsTests.verifyHomeHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyServicesHeaderWork - 2018.08.03 at 08h 19m 41s.xml">
+      <configuration name="ReactionConceptsTests.verifyServicesHeaderWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReactionConceptsTests_verifyFooterButtonsWork - 2018.08.06 at 08h 59m 35s.xml">
+      <configuration name="ReactionConceptsTests.verifyFooterButtonsWork" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -820,9 +847,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993513" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28081557" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993513" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3873776" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
@@ -858,12 +885,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Header.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryHeaderFooter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4685#4686#0" expanded="true" />
+            <element signature="e#4760#4761#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -936,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ServicesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -970,16 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PPCAccountSetUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,29 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#2879#2880#0" expanded="true" />
-            <element signature="e#2958#2959#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-            <element signature="e#3327#3328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="34" column="76" lean-forward="true" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/SocialMediaAdvertisingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1059,10 +1045,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PPCAccountSetUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ServicesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/extensions/EveryHeaderFooter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4685#4686#0" expanded="true" />
+            <element signature="e#4760#4761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ReactionConceptsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="507">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
@@ -1071,6 +1096,8 @@
             <element signature="e#596#597#0" expanded="true" />
             <element signature="e#1015#1016#0" expanded="true" />
             <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1095,7 +1122,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1155,7 +1182,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -32,16 +32,26 @@ public class ReactionConceptsTests extends EveryTest {
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
-  public void verifyFacebookLink() {
-    HomePage.verifyFacebookLink();
+  public void verifyFacebookHeaderLink() {
+    HomePage.verifyFacebookHeaderLink();
   }
-
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
-  public void verifyLinkedInLink() {
-    HomePage.verifyLinkedInLink();
+  public void verifyFacebookFooterLink() { HomePage.verifyFacebookFooterLink();
   }
+
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyLinkedInHeaderLink() {
+    HomePage.verifyLinkedInHeaderLink();
+  }
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyLinkedInFooterLink() {
+    HomePage.verifyLinkedInFooterLink();
+  }
+
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyServicesHeaderWork() {
@@ -56,6 +66,16 @@ public class ReactionConceptsTests extends EveryTest {
             .openSearchEngineOptimizationPage()
             .openServicesPage()
             .openGeneralMarketingPage();
+
+  }
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyFooterButtonsWork() {
+    HomePage
+            .openServicesPageWithFooterButton()
+            .openSuccessStoriesPageWithFooterButton()
+            .openAboutPageWithFooterButton()
+            .openContactPageWithFooterButton();
 
   }
 

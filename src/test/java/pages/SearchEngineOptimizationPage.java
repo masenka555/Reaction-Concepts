@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class SearchEngineOptimizationPage extends Header {
+public class SearchEngineOptimizationPage extends EveryHeaderFooter {
 public SearchEngineOptimizationPage(WebDriver driver) {
         super(driver);
         if (!isCurrent(PAGETITLE_SEARCH_ENGINE_OPTIMIZATION))

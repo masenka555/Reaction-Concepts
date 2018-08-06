@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class GeneralMarketingPage extends Header {
+public class GeneralMarketingPage extends EveryHeaderFooter {
   public GeneralMarketingPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_GENERAL_MARKETING))

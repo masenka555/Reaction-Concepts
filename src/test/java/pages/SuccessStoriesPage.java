@@ -1,11 +1,11 @@
 package pages;
 
-import extensions.Header;
+import extensions.EveryHeaderFooter;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.fail;
 
-public class SuccessStoriesPage extends Header {
+public class SuccessStoriesPage extends EveryHeaderFooter {
   public SuccessStoriesPage(WebDriver driver) {
     super(driver);
     if (!isCurrent(PAGETITLE_SUCCESS_STORIES))
