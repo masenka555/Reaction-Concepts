@@ -52,22 +52,47 @@ public class ReactionConceptsTests extends EveryTest {
     HomePage.verifyLinkedInFooterLink();
   }
 
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyPhoneNumberHeader() {
+    HomePage.verifyPhoneNumberHeader();
+  }
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyPhoneNumberFooter() {
+    HomePage.verifyPhoneNumberFooter();
+  }
+
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyServicesHeaderWork() {
     HomePage
             .openServicesPage()
-            .openPPCAccountSetUpPage()
+            .openPPCAccountSetUpPageServices()
             .openServicesPage()
-            .openPPCManagementPage()
+            .openPPCManagementPageServices()
             .openServicesPage()
-            .openSocialMediaAdvertisingPage()
+            .openSocialMediaAdvertisingPageServices()
             .openServicesPage()
-            .openSearchEngineOptimizationPage()
+            .openSearchEngineOptimizationPageServices()
             .openServicesPage()
-            .openGeneralMarketingPage();
+            .openGeneralMarketingPageServices();
 
   }
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyHomeHeaderWork() {
+    HomePage
+            .openPPCAccountSetUpPageHome()
+            .openHomePage()
+            .openPPCManagementPageHome()
+            .openHomePage()
+            .openSocialMediaAdvertisingPageHome()
+            .openHomePage()
+            .openSearchEngineOptimizationPageHome()
+            .openHomePage()
+            .openGeneralMarketingPageHome();
+  }
+
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyFooterButtonsWork() {

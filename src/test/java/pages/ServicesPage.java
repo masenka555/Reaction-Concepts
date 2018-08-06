@@ -19,42 +19,42 @@ public class ServicesPage extends EveryHeaderFooter {
 
 
 
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[1]/a/div[1]")               private WebElement PPCAccountSetUpButton;
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[2]/a/h4")                   private WebElement PPCManagementButton;
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[3]/a/h4")                   private WebElement SocialMediaAdvertisingButton;
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[4]/a/h4")                   private WebElement SearchEngineOptimizationButton;
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[5]/a/div[1]/img")           private WebElement GeneralMarketingButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[1]/a/div[1]")               private WebElement ServicesPPCAccountSetUpButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[2]/a/h4")                   private WebElement ServicesPPCManagementButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[3]/a/h4")                   private WebElement ServicesSocialMediaAdvertisingButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[4]/a/h4")                   private WebElement ServicesSearchEngineOptimizationButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[5]/a/div[1]/img")           private WebElement ServicesGeneralMarketingButton;
 
 
-  public WebElement getPPCAccountSetUpButton()                                    { return waitForElementToBeClickable(PPCAccountSetUpButton, driver); }
-  public WebElement getPPCManagementButton()                                      { return waitForElementToBeClickable(PPCManagementButton, driver); }
-  public WebElement getSocialMediaAdvertisingButton()                             { return waitForElementToBeClickable(SocialMediaAdvertisingButton, driver); }
-  public WebElement getSearchEngineOptimizationButton()                           { return waitForElementToBeClickable(SearchEngineOptimizationButton, driver); }
-  public WebElement getGeneralMarketingButton()                                   { return waitForElementToBeClickable(GeneralMarketingButton, driver); }
+  public WebElement getServicesPPCAccountSetUpButton()                                    { return waitForElementToBeClickable(ServicesPPCAccountSetUpButton, driver); }
+  public WebElement getServicesPPCManagementButton()                                      { return waitForElementToBeClickable(ServicesPPCManagementButton, driver); }
+  public WebElement getServicesSocialMediaAdvertisingButton()                             { return waitForElementToBeClickable(ServicesSocialMediaAdvertisingButton, driver); }
+  public WebElement getServicesSearchEngineOptimizationButton()                           { return waitForElementToBeClickable(ServicesSearchEngineOptimizationButton, driver); }
+  public WebElement getServicesGeneralMarketingButton()                                   { return waitForElementToBeClickable(ServicesGeneralMarketingButton, driver); }
 
 
-  public PPCAccountSetUpPage openPPCAccountSetUpPage() {
-    getPPCAccountSetUpButton().click();
+  public PPCAccountSetUpPage openPPCAccountSetUpPageServices() {
+    getServicesPPCAccountSetUpButton().click();
     return new PPCAccountSetUpPage(driver);
   }
 
-  public PPCManagementPage openPPCManagementPage() {
-    getPPCManagementButton().click();
+  public PPCManagementPage openPPCManagementPageServices() {
+    getServicesPPCManagementButton().click();
     return new PPCManagementPage(driver);
   }
 
-  public SocialMediaAdvertisingPage openSocialMediaAdvertisingPage() {
-    getSocialMediaAdvertisingButton().click();
+  public SocialMediaAdvertisingPage openSocialMediaAdvertisingPageServices() {
+    getServicesSocialMediaAdvertisingButton().click();
     return new SocialMediaAdvertisingPage(driver);
   }
 
-  public SearchEngineOptimizationPage openSearchEngineOptimizationPage() {
-    getSearchEngineOptimizationButton().click();
+  public SearchEngineOptimizationPage openSearchEngineOptimizationPageServices() {
+    getServicesSearchEngineOptimizationButton().click();
     return new SearchEngineOptimizationPage(driver);
   }
 
-  public GeneralMarketingPage openGeneralMarketingPage() {
-    getGeneralMarketingButton().click();
+  public GeneralMarketingPage openGeneralMarketingPageServices() {
+    getServicesGeneralMarketingButton().click();
     return new GeneralMarketingPage(driver);
   }
 

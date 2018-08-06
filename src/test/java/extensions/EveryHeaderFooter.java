@@ -13,6 +13,7 @@ public class EveryHeaderFooter extends EveryPage {
 
   public String FacebookURL = "https://www.facebook.com/pages/Reaction-Concepts/212144135490827";
   public String LinkedInURL = "https://www.linkedin.com/in/lauri-taylor-14a2683/";
+  public String PhoneNumber = "818-999-9921";
 
 
 
@@ -29,7 +30,8 @@ public class EveryHeaderFooter extends EveryPage {
   @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[3]")                   private WebElement LinkedInHeaderLink;
   @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[2]/i")                 private WebElement FacebookFooterLink;
   @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[3]/i")                 private WebElement LinkedInFooterLink;
-
+  @FindBy(xpath = "//*[@id='header-tel']")                                         private WebElement PhoneNumberHeader;
+  @FindBy(xpath = "//*[@id='footer-tel']")                                         private WebElement PhoneNumberFooter;
 
 
 
@@ -46,6 +48,8 @@ public class EveryHeaderFooter extends EveryPage {
   public WebElement getLinkedInHeaderLink()                                       { return waitForElementToBeClickable(LinkedInHeaderLink, driver); }
   public WebElement getFacebookFooterLink()                                       { return waitForElementToBeClickable(FacebookFooterLink, driver); }
   public WebElement getLinkedInFooterLink()                                       { return waitForElementToBeClickable(LinkedInFooterLink, driver); }
+  public WebElement getPhoneNumberHeader()                                        { return waitForElementToBeClickable(PhoneNumberHeader, driver); }
+  public WebElement getPhoneNumberFooter()                                        { return waitForElementToBeClickable(PhoneNumberFooter, driver); }
 
 
   public HomePage openHomePage() {
@@ -107,6 +111,14 @@ public class EveryHeaderFooter extends EveryPage {
 
   public boolean verifyLinkedInFooterLink () {
     return getLinkedInFooterLink().getAttribute("href").contains(LinkedInURL);
+  }
+
+  public boolean verifyPhoneNumberHeader () {
+    return getPhoneNumberHeader().getAttribute("href").contains(PhoneNumber);
+  }
+
+  public boolean verifyPhoneNumberFooter () {
+    return getPhoneNumberFooter().getAttribute("href").contains(PhoneNumber);
   }
 
 }
