@@ -8,22 +8,22 @@ import pages.HomePage;
 import java.lang.reflect.Method;
 
 public class ReactionConceptsTests extends EveryTest {
-  private HomePage HomePage;
+  private HomePage homePage;
 
   @BeforeMethod(alwaysRun = true)
   public void beforeTest(Method method) {
-    HomePage = initializeTest(method);
+    homePage = initializeTest(method);
   }
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyHomeHeaderDisplayed() {
-   HomePage.verifyHomeHeaderDisplayed();
+   homePage.verifyHomeHeaderDisplayed();
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyHeaderButtonsWork() {
-    HomePage
+    homePage
             .openServicesPage()
             .openSuccessStoriesPage()
             .openAboutPage()
@@ -33,39 +33,39 @@ public class ReactionConceptsTests extends EveryTest {
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyFacebookHeaderLink() {
-    HomePage.verifyFacebookHeaderLink();
+    homePage.verifyFacebookHeaderLink();
   }
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
-  public void verifyFacebookFooterLink() { HomePage.verifyFacebookFooterLink();
+  public void verifyFacebookFooterLink() { homePage.verifyFacebookFooterLink();
   }
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyLinkedInHeaderLink() {
-    HomePage.verifyLinkedInHeaderLink();
+    homePage.verifyLinkedInHeaderLink();
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyLinkedInFooterLink() {
-    HomePage.verifyLinkedInFooterLink();
+    homePage.verifyLinkedInFooterLink();
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyPhoneNumberHeader() {
-    HomePage.verifyPhoneNumberHeader();
+    homePage.verifyPhoneNumberHeader();
   }
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyPhoneNumberFooter() {
-    HomePage.verifyPhoneNumberFooter();
+    homePage.verifyPhoneNumberFooter();
   }
 
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyServicesHeaderWork() {
-    HomePage
+    homePage
             .openServicesPage()
             .openPPCAccountSetUpPageServices()
             .openServicesPage()
@@ -81,7 +81,7 @@ public class ReactionConceptsTests extends EveryTest {
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyHomeHeaderWork() {
-    HomePage
+    homePage
             .openPPCAccountSetUpPageHome()
             .openHomePage()
             .openPPCManagementPageHome()
@@ -96,7 +96,7 @@ public class ReactionConceptsTests extends EveryTest {
 
   @Test(description = "", groups = {"smoke", "qa", "prod"})
   public void verifyFooterButtonsWork() {
-    HomePage
+    homePage
             .openServicesPageWithFooterButton()
             .openSuccessStoriesPageWithFooterButton()
             .openAboutPageWithFooterButton()
@@ -104,6 +104,29 @@ public class ReactionConceptsTests extends EveryTest {
 
   }
 
-}
 
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyHomeBodyButtonsWork() {
+    homePage
+            .openServicesPageWithHomeBodyServicesButton()
+            .openHomePage()
+            .openSuccessStoriesPageWithHomeBodySuccessStoriesButton()
+            .openHomePage()
+            .openContactPageWithHomeBodyContactUsButton();
+
+
+  }
+
+
+  @Test(description = "", groups = {"smoke", "qa", "prod"})
+  public void verifyAllSuccessStoriesButtonWork() {
+    homePage
+            .openSuccessStoriesPageWithAllSuccessStoriesButton();
+  }
+
+  @Test
+  public void verifyScrolling() {
+    homePage.verifyScrollingSuccessStories();
+  }
+}
 
