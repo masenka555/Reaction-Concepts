@@ -29,6 +29,7 @@ public class HomePage extends EveryHeaderFooter {
   @FindBy(className = "contact-us-button")                                            private WebElement HomeBodyContactUsButton;
   @FindBy(xpath = "//*[@id='content']/div[5]/div/h2/a")                               private WebElement AllSuccessStoriesButton;
   @FindBy(xpath = "//*[@id='arrows']/button[2]")                                      private WebElement RightArrowButton;
+  @FindBy(xpath = "//*[@id='arrows']/button[1]")                                      private WebElement LeftArrowButton;
 
 
   public WebElement getHomePPCAccountSetUpButton()                                    { return waitForElementToBeClickable(HomePPCAccountSetUpButton, driver); }
@@ -42,6 +43,7 @@ public class HomePage extends EveryHeaderFooter {
   private WebElement getHomeBodyContactUsButton()                                     { return waitForElement(HomeBodyContactUsButton, driver); }
   public WebElement getAllSuccessStoriesButton()                                      { return waitForElementToBeClickable(AllSuccessStoriesButton, driver); }
   public WebElement getRightArrowButton()                                             { return waitForElementToBeClickable(RightArrowButton, driver); }
+  public WebElement getLeftArrowButton()                                              { return waitForElementToBeClickable(LeftArrowButton, driver); }
 
 
   public PPCAccountSetUpPage openPPCAccountSetUpPageHome() {
@@ -93,21 +95,29 @@ public class HomePage extends EveryHeaderFooter {
     return new SuccessStoriesPage(driver);
   }
 
-  public boolean verifyScrollingSuccessStories() {
+  public boolean verifyRightScrollingSuccessStories() {
 
     for (int i = 0; i < 5; i++) {
         By locator = By.id("slick-slide-control0" + i);
         //*[@id="slick-slide-control04"]
-        if (!driver.findElement(locator).getAttribute("aria-selected").equals("true")) {
-            fail("The tab index is not correct");
-        }
+        if (!driver.findElement(locator).getAttribute("aria-selected").equals("true"))
+           return false;
+
         getRightArrowButton().click();
+        Sleep(1);
     }
     return true;
   }
 
-  //*[@id="slick-slide-control00"]
-  //*[@id="slick-slide-control01"]
-  //*[@id="slick-slide03"]/h2
-  //*[@id="slick-slide04"]/h2
+    public boolean verifyLeftScrollingSuccessStories() {
+
+        for (int i = 4 ; i >= 0; i--) {
+            getLeftArrowButton().click();
+            Sleep(1);
+            By locator = By.id("slick-slide-control0" + i);
+            if (!driver.findElement(locator).getAttribute("aria-selected").equals("true"))
+                return false;
+        }
+        return true;
+    }
 }

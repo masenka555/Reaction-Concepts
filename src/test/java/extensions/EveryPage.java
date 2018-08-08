@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static java.lang.Thread.sleep;
 import static org.testng.Assert.fail;
 
 public class EveryPage {
@@ -72,7 +73,13 @@ public class EveryPage {
     return element;
   }
 
-
-
+    public void Sleep(double time) {
+        try {
+            sleep((long )time * 1000);
+        } catch (InterruptedException e) {
+            System.out.println("Not Working");
+            e.printStackTrace();
+        }
+    }
 }
 

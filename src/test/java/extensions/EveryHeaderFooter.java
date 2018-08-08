@@ -28,8 +28,8 @@ public class EveryHeaderFooter extends EveryPage {
   @FindBy(xpath = "//*[@id='menu-main-1']/li[4]/a")                                private WebElement ContactFooterButton;
   @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[2]")                   private WebElement FacebookHeaderLink;
   @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[3]")                   private WebElement LinkedInHeaderLink;
-  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[2]/i")                 private WebElement FacebookFooterLink;
-  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[3]/i")                 private WebElement LinkedInFooterLink;
+  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[2]")                   private WebElement FacebookFooterLink;
+  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[3]")                   private WebElement LinkedInFooterLink;
   @FindBy(xpath = "//*[@id='header-tel']")                                         private WebElement PhoneNumberHeader;
   @FindBy(xpath = "//*[@id='footer-tel']")                                         private WebElement PhoneNumberFooter;
 
