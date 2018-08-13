@@ -140,6 +140,18 @@ public class ReactionConceptsTests extends EveryTest {
         homePage.openSuccessStoriesPage().verifyCompanyTilesGoToCorrectPage();
     }
 
+    @Test
+    public void verifyContactValidationErrorPage() {
+        homePage.openContactPage().openContactValidationErrorPageWithSubmitButton()
+                .verifyValidationErrorHeaderDisplayed();
+    }
+
+    @Test
+    public void verifyErrorMessages() {
+        homePage.openContactPage().openContactValidationErrorPageWithSubmitButton()
+                .verifyErrorMessages();
+    }
+
 }
 
 
