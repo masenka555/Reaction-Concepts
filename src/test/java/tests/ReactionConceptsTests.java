@@ -46,22 +46,26 @@ public class ReactionConceptsTests extends EveryTest {
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyLinkedInHeaderLink() {
-        homePage.verifyLinkedInHeaderLink();
+
+        assertTrue(homePage.verifyLinkedInHeaderLink());
     }
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyLinkedInFooterLink() {
-        homePage.verifyLinkedInFooterLink();
+
+        assertTrue(homePage.verifyLinkedInFooterLink());
     }
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyPhoneNumberHeader() {
-        homePage.verifyPhoneNumberHeader();
+
+        assertTrue(homePage.verifyPhoneNumberHeader());
     }
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyPhoneNumberFooter() {
-        homePage.verifyPhoneNumberFooter();
+
+        assertTrue(homePage.verifyPhoneNumberFooter());
     }
 
 
