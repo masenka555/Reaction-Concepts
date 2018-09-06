@@ -35,13 +35,13 @@ public class ReactionConceptsTests extends EveryTest {
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyFacebookHeaderLink() {
-        homePage.verifyFacebookHeaderLink();
+        assertTrue(homePage.verifyFacebookHeaderLink());
     }
 
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})
     public void verifyFacebookFooterLink() {
-        homePage.verifyFacebookFooterLink();
+        assertTrue(homePage.verifyFacebookFooterLink());
     }
 
     @Test(description = "", groups = {"smoke", "qa", "prod"})

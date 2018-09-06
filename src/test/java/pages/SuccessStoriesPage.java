@@ -19,10 +19,10 @@ public class SuccessStoriesPage extends EveryHeaderFooter {
     private static final String PAGETITLE_SUCCESS_STORIES = "Success Stories";
 
 
-    @FindBy(xpath = "//div[1]/a/h4")                                                        private WebElement CompanyTile;
-
-
-    public WebElement getCompanyTile()                         { return waitForElementToBeClickable(CompanyTile, driver); }
+//    @FindBy(xpath = "//div[1]/a/h4")                                                        private WebElement CompanyTile;
+//
+//
+//    public WebElement getCompanyTile()                         { return waitForElementToBeClickable(CompanyTile, driver); }
 
 
   // new CompanySuccessStoryPage(driver, "companyName");

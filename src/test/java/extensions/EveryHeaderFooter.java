@@ -93,12 +93,12 @@ public class EveryHeaderFooter extends EveryPage {
   }
 
   public ContactPage openContactPageWithFooterButton() {
-    getContactFooterButton().click();
-    return new ContactPage(driver);
+      getContactFooterButton().click();
+      return new ContactPage(driver);
   }
 
   public boolean verifyFacebookHeaderLink () {
-    return getFacebookHeaderLink().getAttribute("href").contains(FacebookURL);
+      return getFacebookHeaderLink().getAttribute("href").equals(FacebookURL);
   }
 
   public boolean verifyLinkedInHeaderLink() {
