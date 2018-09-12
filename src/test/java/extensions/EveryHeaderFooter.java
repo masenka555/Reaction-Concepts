@@ -17,39 +17,39 @@ public class EveryHeaderFooter extends EveryPage {
 
 
 
-  @FindBy(xpath = "//*[@id='masthead']/div/div/div[2]/div/a/img")                  private WebElement HomeLogo;
-  @FindBy(xpath = "//*[@id='menu-item-145']/a")                                    private WebElement ServicesHeaderButton;
-  @FindBy(xpath = "//*[@id='menu-item-146']/a")                                    private WebElement SuccessStoriesHeaderButton;
-  @FindBy(xpath = "//*[@id='menu-item-147']/a")                                    private WebElement AboutHeaderButton;
-  @FindBy(xpath = "//*[@id='menu-item-148']/a")                                    private WebElement ContactHeaderButton;
-  @FindBy(xpath = "//*[@id='menu-main-1']/li[1]/a")                                private WebElement ServicesFooterButton;
-  @FindBy(xpath = "//*[@id='menu-main-1']/li[2]/a")                                private WebElement SuccessStoriesFooterButton;
-  @FindBy(xpath = "//*[@id='menu-main-1']/li[3]/a")                                private WebElement AboutFooterButton;
-  @FindBy(xpath = "//*[@id='menu-main-1']/li[4]/a")                                private WebElement ContactFooterButton;
-  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[2]")                   private WebElement FacebookHeaderLink;
-  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[3]")                   private WebElement LinkedInHeaderLink;
-  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[2]")                   private WebElement FacebookFooterLink;
-  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[3]")                   private WebElement LinkedInFooterLink;
-  @FindBy(xpath = "//*[@id='header-tel']")                                         private WebElement PhoneNumberHeader;
-  @FindBy(xpath = "//*[@id='footer-tel']")                                         private WebElement PhoneNumberFooter;
+  @FindBy(xpath = "//*[@id='masthead']/div/div/div[2]/div/a/img")                  private WebElement homeLogo;
+  @FindBy(xpath = "//*[@id='menu-item-145']/a")                                    private WebElement servicesHeaderButton;
+  @FindBy(xpath = "//*[@id='menu-item-146']/a")                                    private WebElement successStoriesHeaderButton;
+  @FindBy(xpath = "//*[@id='menu-item-147']/a")                                    private WebElement aboutHeaderButton;
+  @FindBy(xpath = "//*[@id='menu-item-148']/a")                                    private WebElement contactHeaderButton;
+  @FindBy(xpath = "//*[@id='menu-main-1']/li[1]/a")                                private WebElement servicesFooterButton;
+  @FindBy(xpath = "//*[@id='menu-main-1']/li[2]/a")                                private WebElement successStoriesFooterButton;
+  @FindBy(xpath = "//*[@id='menu-main-1']/li[3]/a")                                private WebElement aboutFooterButton;
+  @FindBy(xpath = "//*[@id='menu-main-1']/li[4]/a")                                private WebElement contactFooterButton;
+  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[2]")                   private WebElement facebookHeaderLink;
+  @FindBy(xpath = "//*[@id='masthead']/div/div/div[1]/div/a[3]")                   private WebElement linkedInHeaderLink;
+  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[2]")                   private WebElement facebookFooterLink;
+  @FindBy(xpath = "//*[@id='colophon']/div/div/div[3]/div/a[3]")                   private WebElement linkedInFooterLink;
+  @FindBy(xpath = "//*[@id='header-tel']")                                         private WebElement phoneNumberHeader;
+  @FindBy(xpath = "//*[@id='footer-tel']")                                         private WebElement phoneNumberFooter;
 
 
 
-  public WebElement getHomeLogo()                                                 { return waitForElementToBeClickable(HomeLogo, driver); }
-  public WebElement getServicesHeaderButton()                                     { return waitForElementToBeClickable(ServicesHeaderButton, driver); }
-  public WebElement getSuccessStoriesHeaderButton()                               { return waitForElementToBeClickable(SuccessStoriesHeaderButton, driver); }
-  public WebElement getAboutHeaderButton()                                        { return waitForElementToBeClickable(AboutHeaderButton, driver); }
-  public WebElement getContactHeaderButton()                                      { return waitForElementToBeClickable(ContactHeaderButton, driver); }
-  public WebElement getServicesFooterButton()                                     { return waitForElementToBeClickable(ServicesFooterButton, driver); }
-  public WebElement getSuccessStoriesFooterButton()                               { return waitForElementToBeClickable(SuccessStoriesFooterButton, driver); }
-  public WebElement getAboutFooterButton()                                        { return waitForElementToBeClickable(AboutFooterButton, driver); }
-  public WebElement getContactFooterButton()                                      { return waitForElementToBeClickable(ContactFooterButton, driver); }
-  public WebElement getFacebookHeaderLink()                                       { return waitForElementToBeClickable(FacebookHeaderLink, driver); }
-  public WebElement getLinkedInHeaderLink()                                       { return waitForElementToBeClickable(LinkedInHeaderLink, driver); }
-  public WebElement getFacebookFooterLink()                                       { return waitForElementToBeClickable(FacebookFooterLink, driver); }
-  public WebElement getLinkedInFooterLink()                                       { return waitForElementToBeClickable(LinkedInFooterLink, driver); }
-  public WebElement getPhoneNumberHeader()                                        { return waitForElementToBeClickable(PhoneNumberHeader, driver); }
-  public WebElement getPhoneNumberFooter()                                        { return waitForElementToBeClickable(PhoneNumberFooter, driver); }
+  public WebElement getHomeLogo()                                                 { return waitForElementToBeClickable(homeLogo, driver); }
+  public WebElement getServicesHeaderButton()                                     { return waitForElementToBeClickable(servicesHeaderButton, driver); }
+  public WebElement getSuccessStoriesHeaderButton()                               { return waitForElementToBeClickable(successStoriesHeaderButton, driver); }
+  public WebElement getAboutHeaderButton()                                        { return waitForElementToBeClickable(aboutHeaderButton, driver); }
+  public WebElement getContactHeaderButton()                                      { return waitForElementToBeClickable(contactHeaderButton, driver); }
+  public WebElement getServicesFooterButton()                                     { return waitForElementToBeClickable(servicesFooterButton, driver); }
+  public WebElement getSuccessStoriesFooterButton()                               { return waitForElementToBeClickable(successStoriesFooterButton, driver); }
+  public WebElement getAboutFooterButton()                                        { return waitForElementToBeClickable(aboutFooterButton, driver); }
+  public WebElement getContactFooterButton()                                      { return waitForElementToBeClickable(contactFooterButton, driver); }
+  public WebElement getFacebookHeaderLink()                                       { return waitForElementToBeClickable(facebookHeaderLink, driver); }
+  public WebElement getLinkedInHeaderLink()                                       { return waitForElementToBeClickable(linkedInHeaderLink, driver); }
+  public WebElement getFacebookFooterLink()                                       { return waitForElementToBeClickable(facebookFooterLink, driver); }
+  public WebElement getLinkedInFooterLink()                                       { return waitForElementToBeClickable(linkedInFooterLink, driver); }
+  public WebElement getPhoneNumberHeader()                                        { return waitForElementToBeClickable(phoneNumberHeader, driver); }
+  public WebElement getPhoneNumberFooter()                                        { return waitForElementToBeClickable(phoneNumberFooter, driver); }
 
 
   public HomePage openHomePage() {

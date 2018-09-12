@@ -15,19 +15,7 @@ public class SuccessStoriesPage extends EveryHeaderFooter {
             fail("The Success Stories Page did not load correctly");
     }
 
-
     private static final String PAGETITLE_SUCCESS_STORIES = "Success Stories";
-
-
-//    @FindBy(xpath = "//div[1]/a/h4")                                                        private WebElement CompanyTile;
-//
-//
-//    public WebElement getCompanyTile()                         { return waitForElementToBeClickable(CompanyTile, driver); }
-
-
-  // new CompanySuccessStoryPage(driver, "companyName");
-
-
 
     public void verifyCompanyTilesGoToCorrectPage() {
 
@@ -37,7 +25,6 @@ public class SuccessStoriesPage extends EveryHeaderFooter {
             CompanyTile.click();
             new CompanySuccessStoryPage(driver, companyName).openCompanySuccessPage();
         }
-
 
     }
 }

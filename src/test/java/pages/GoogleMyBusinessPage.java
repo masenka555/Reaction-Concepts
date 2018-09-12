@@ -12,8 +12,6 @@ public class GoogleMyBusinessPage extends EveryHeaderFooter {
             fail("The PPC Account Set-up Page did not load correctly");
     }
 
-
     private static final String PAGETITLE_GOOGLE_MY_BUSINESS = "Google My Business";
-
 
 }

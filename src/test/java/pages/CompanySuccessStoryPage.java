@@ -15,15 +15,12 @@ class CompanySuccessStoryPage extends EveryHeaderFooter {
             fail("The Success Stories Page did not load correctly");
     }
 
+    @FindBy(tagName = "h1")                                         private WebElement companyHeader;
+    @FindBy(xpath = "//*[@id='breadcrumbs']/span/span/span/a")      private WebElement backToSuccessStories;
 
 
-    @FindBy(tagName = "h1")                                                                 private WebElement companyHeader;
-    @FindBy(xpath = "//*[@id='breadcrumbs']/span/span/span/a")                              private WebElement backToSuccessStories;
-
-
-    private WebElement getCompanyHeader()                { return waitForElementToBeClickable(companyHeader, driver); }
-    private WebElement getBackToSuccessStories()         { return waitForElementToBeClickable(backToSuccessStories, driver); }
-
+    private WebElement getCompanyHeader()                          { return waitForElementToBeClickable(companyHeader, driver); }
+    private WebElement getBackToSuccessStories()                   { return waitForElementToBeClickable(backToSuccessStories, driver); }
 
 
     private boolean verifyHeader(String companyName) {
@@ -34,7 +31,5 @@ class CompanySuccessStoryPage extends EveryHeaderFooter {
         getBackToSuccessStories().click();
         return new CompanySuccessStoryPage(driver, "Success Stories");
     }
-
-
 
 }

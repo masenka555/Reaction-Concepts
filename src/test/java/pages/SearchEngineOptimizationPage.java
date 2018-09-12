@@ -12,8 +12,6 @@ public SearchEngineOptimizationPage(WebDriver driver) {
         fail("The Search Engine Optimization Page did not load correctly");
         }
 
-
 private static final String PAGETITLE_SEARCH_ENGINE_OPTIMIZATION = "Search Engine Optimization (SEO)";
-
 
         }

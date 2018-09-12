@@ -12,8 +12,5 @@ public class PPCManagementPage extends EveryHeaderFooter {
       fail("The PPC Management Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_PPC_MANAGEMENT = "PPC Management";
-
-
 }

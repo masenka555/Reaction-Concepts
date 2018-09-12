@@ -12,8 +12,5 @@ public class AboutPage extends EveryHeaderFooter {
       fail("The About Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_ABOUT = "About";
-
-
 }

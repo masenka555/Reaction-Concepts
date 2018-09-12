@@ -12,8 +12,5 @@ public class PPCAccountSetUpPage extends EveryHeaderFooter {
       fail("The PPC Account Set-up Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_PPC_ACCOUNT_SET_UP = "PPC Account Set-up";
-
-
 }

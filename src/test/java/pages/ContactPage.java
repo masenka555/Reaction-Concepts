@@ -17,17 +17,16 @@ public class ContactPage extends EveryHeaderFooter {
 
   private static final String PAGETITLE_CONTACT = "Contact";
 
-    @FindBy(id = "gform_submit_button_1")                                                   private WebElement SubmitContactButton;
+    @FindBy(id = "gform_submit_button_1")                                   private WebElement submitContactButton;
 
 
-    public WebElement getSubmitContactButton()                                              { return waitForElementToBeClickable(SubmitContactButton, driver); }
+    public WebElement getSubmitContactButton()                             { return waitForElementToBeClickable(submitContactButton, driver); }
+
 
     public ContactValidationErrorPage openContactValidationErrorPageWithSubmitButton() {
         getSubmitContactButton().click();
         return new ContactValidationErrorPage(driver);
     }
-
-
 
 }
 

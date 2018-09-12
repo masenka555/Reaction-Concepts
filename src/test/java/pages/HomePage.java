@@ -15,35 +15,34 @@ public class HomePage extends EveryHeaderFooter {
       fail("The Home Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_HOME = "Home";
 
-  @FindBy(xpath = "//*[@id='content']/div[1]/div/div/div[2]/div[1]")                  private WebElement HomeHeader;
-  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[1]/div[3]/a")                private WebElement HomePPCAccountSetUpButton;
-  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[2]/div[3]/a")                private WebElement HomePPCManagementButton;
-  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[3]/div[3]/a")                private WebElement HomeSocialMediaAdvertisingButton;
-  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[4]/div[3]/a")                private WebElement HomeSearchEngineOptimizationButton;
-  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[5]/div[3]/a")                private WebElement HomeGeneralMarketingButton;
-  @FindBy(className = "services-button")                                              private WebElement HomeBodyServicesButton;
-  @FindBy(className = "success-stories-button")                                       private WebElement HomeBodySuccessStoriesButton;
-  @FindBy(className = "contact-us-button")                                            private WebElement HomeBodyContactUsButton;
-  @FindBy(xpath = "//*[@id='content']/div[5]/div/h2/a")                               private WebElement AllSuccessStoriesButton;
-  @FindBy(xpath = "//*[@id='arrows']/button[2]")                                      private WebElement RightArrowButton;
-  @FindBy(xpath = "//*[@id='arrows']/button[1]")                                      private WebElement LeftArrowButton;
+  @FindBy(xpath = "//*[@id='content']/div[1]/div/div/div[2]/div[1]")                  private WebElement homeHeader;
+  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[1]/div[3]/a")                private WebElement homePPCAccountSetUpButton;
+  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[2]/div[3]/a")                private WebElement homePPCManagementButton;
+  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[3]/div[3]/a")                private WebElement homeSocialMediaAdvertisingButton;
+  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[4]/div[3]/a")                private WebElement homeSearchEngineOptimizationButton;
+  @FindBy(xpath = "//*[@id='content']/div[2]/div/div/div[5]/div[3]/a")                private WebElement homeGeneralMarketingButton;
+  @FindBy(className = "services-button")                                              private WebElement homeBodyServicesButton;
+  @FindBy(className = "success-stories-button")                                       private WebElement homeBodySuccessStoriesButton;
+  @FindBy(className = "contact-us-button")                                            private WebElement homeBodyContactUsButton;
+  @FindBy(xpath = "//*[@id='content']/div[5]/div/h2/a")                               private WebElement allSuccessStoriesButton;
+  @FindBy(xpath = "//*[@id='arrows']/button[2]")                                      private WebElement rightArrowButton;
+  @FindBy(xpath = "//*[@id='arrows']/button[1]")                                      private WebElement leftArrowButton;
 
 
-  public WebElement getHomePPCAccountSetUpButton()                                    { return waitForElementToBeClickable(HomePPCAccountSetUpButton, driver); }
-  public WebElement getHomePPCManagementButton()                                      { return waitForElementToBeClickable(HomePPCManagementButton, driver); }
-  public WebElement getHomeSocialMediaAdvertisingButton()                             { return waitForElementToBeClickable(HomeSocialMediaAdvertisingButton, driver); }
-  public WebElement getHomeSearchEngineOptimizationButton()                           { return waitForElementToBeClickable(HomeSearchEngineOptimizationButton, driver); }
-  public WebElement getHomeGeneralMarketingButton()                                   { return waitForElementToBeClickable(HomeGeneralMarketingButton, driver); }
-  private WebElement getHomeHeader()                                                  { return waitForElement(HomeHeader, driver); }
-  private WebElement getHomeBodyServicesButton()                                      { return waitForElement(HomeBodyServicesButton, driver); }
-  private WebElement getHomeBodySuccessStoriesButton()                                { return waitForElement(HomeBodySuccessStoriesButton, driver); }
-  private WebElement getHomeBodyContactUsButton()                                     { return waitForElement(HomeBodyContactUsButton, driver); }
-  public WebElement getAllSuccessStoriesButton()                                      { return waitForElementToBeClickable(AllSuccessStoriesButton, driver); }
-  public WebElement getRightArrowButton()                                             { return waitForElementToBeClickable(RightArrowButton, driver); }
-  public WebElement getLeftArrowButton()                                              { return waitForElementToBeClickable(LeftArrowButton, driver); }
+  public WebElement getHomePPCAccountSetUpButton()                                   { return waitForElementToBeClickable(homePPCAccountSetUpButton, driver); }
+  public WebElement getHomePPCManagementButton()                                     { return waitForElementToBeClickable(homePPCManagementButton, driver); }
+  public WebElement getHomeSocialMediaAdvertisingButton()                            { return waitForElementToBeClickable(homeSocialMediaAdvertisingButton, driver); }
+  public WebElement getHomeSearchEngineOptimizationButton()                          { return waitForElementToBeClickable(homeSearchEngineOptimizationButton, driver); }
+  public WebElement getHomeGeneralMarketingButton()                                  { return waitForElementToBeClickable(homeGeneralMarketingButton, driver); }
+  private WebElement getHomeHeader()                                                 { return waitForElement(homeHeader, driver); }
+  private WebElement getHomeBodyServicesButton()                                     { return waitForElement(homeBodyServicesButton, driver); }
+  private WebElement getHomeBodySuccessStoriesButton()                               { return waitForElement(homeBodySuccessStoriesButton, driver); }
+  private WebElement getHomeBodyContactUsButton()                                    { return waitForElement(homeBodyContactUsButton, driver); }
+  public WebElement getAllSuccessStoriesButton()                                     { return waitForElementToBeClickable(allSuccessStoriesButton, driver); }
+  public WebElement getRightArrowButton()                                            { return waitForElementToBeClickable(rightArrowButton, driver); }
+  public WebElement getLeftArrowButton()                                             { return waitForElementToBeClickable(leftArrowButton, driver); }
 
 
   public PPCAccountSetUpPage openPPCAccountSetUpPageHome() {
@@ -72,7 +71,7 @@ public class HomePage extends EveryHeaderFooter {
   }
 
   public boolean verifyHomeHeaderDisplayed () {
-    return HomeHeader.isDisplayed();
+    return homeHeader.isDisplayed();
   }
 
   public ServicesPage openServicesPageWithHomeBodyServicesButton() {

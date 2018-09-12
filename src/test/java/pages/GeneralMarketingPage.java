@@ -12,8 +12,6 @@ public class GeneralMarketingPage extends EveryHeaderFooter {
       fail("The General Marketing Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_GENERAL_MARKETING = "General Marketing - Reaction concepts";
-
 
 }

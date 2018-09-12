@@ -12,8 +12,6 @@ public class SocialMediaAdvertisingPage extends EveryHeaderFooter {
       fail("The Social Media Advertising Page did not load correctly");
   }
 
-
   private static final String PAGETITLE_SOCIAL_MEDIA_ADVERTISING = "Social Media Advertising";
-
 
 }
