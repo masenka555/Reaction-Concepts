@@ -81,6 +81,8 @@ public class ReactionConceptsTests extends EveryTest {
                 .openServicesPage()
                 .openSearchEngineOptimizationPageServices()
                 .openServicesPage()
+                .openGoogleMyBusinessPageServices()
+                .openServicesPage()
                 .openGeneralMarketingPageServices();
 
     }

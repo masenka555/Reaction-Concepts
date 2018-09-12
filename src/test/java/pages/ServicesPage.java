@@ -23,19 +23,22 @@ public class ServicesPage extends EveryHeaderFooter {
   @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[2]/a/h4")                   private WebElement ServicesPPCManagementButton;
   @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[3]/a/h4")                   private WebElement ServicesSocialMediaAdvertisingButton;
   @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[4]/a/h4")                   private WebElement ServicesSearchEngineOptimizationButton;
-  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[5]/a/div[1]/img")           private WebElement ServicesGeneralMarketingButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[5]/a/h4")                   private WebElement servicesGoogleMyBusinessButton;
+  @FindBy(xpath = "//*[@id='main']/div/div/div/div/div[6]/a/h4")                   private WebElement ServicesGeneralMarketingButton;
 
 
   public WebElement getServicesPPCAccountSetUpButton()                                    { return waitForElementToBeClickable(ServicesPPCAccountSetUpButton, driver); }
   public WebElement getServicesPPCManagementButton()                                      { return waitForElementToBeClickable(ServicesPPCManagementButton, driver); }
   public WebElement getServicesSocialMediaAdvertisingButton()                             { return waitForElementToBeClickable(ServicesSocialMediaAdvertisingButton, driver); }
   public WebElement getServicesSearchEngineOptimizationButton()                           { return waitForElementToBeClickable(ServicesSearchEngineOptimizationButton, driver); }
+  public WebElement getServicesGoogleMyBusinessButton()                                   { return waitForElementToBeClickable(servicesGoogleMyBusinessButton, driver); }
   public WebElement getServicesGeneralMarketingButton()                                   { return waitForElementToBeClickable(ServicesGeneralMarketingButton, driver); }
 
 
   public PPCAccountSetUpPage openPPCAccountSetUpPageServices() {
     getServicesPPCAccountSetUpButton().click();
     return new PPCAccountSetUpPage(driver);
+
   }
 
   public PPCManagementPage openPPCManagementPageServices() {
@@ -52,6 +55,11 @@ public class ServicesPage extends EveryHeaderFooter {
     getServicesSearchEngineOptimizationButton().click();
     return new SearchEngineOptimizationPage(driver);
   }
+
+    public GoogleMyBusinessPage openGoogleMyBusinessPageServices() {
+        getServicesGoogleMyBusinessButton().click();
+        return new GoogleMyBusinessPage(driver);
+    }
 
   public GeneralMarketingPage openGeneralMarketingPageServices() {
     getServicesGeneralMarketingButton().click();

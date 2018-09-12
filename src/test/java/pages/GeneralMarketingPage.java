@@ -13,7 +13,7 @@ public class GeneralMarketingPage extends EveryHeaderFooter {
   }
 
 
-  private static final String PAGETITLE_GENERAL_MARKETING = "General Marketing";
+  private static final String PAGETITLE_GENERAL_MARKETING = "General Marketing - Reaction concepts";
 
 
 }
